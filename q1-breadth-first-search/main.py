@@ -31,4 +31,5 @@ if __name__ == "__main__":
     }
 
     start_node = 'A'
+    # Perform BFS and print the traversal order
     print("BFS Traversal starting from node", start_node, ":", bfs(graph, start_node))
